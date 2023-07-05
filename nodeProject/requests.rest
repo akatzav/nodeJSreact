@@ -1,0 +1,102 @@
+###GET Home page
+
+GET http://localhost:3001/home
+
+###GET login page
+
+GET http://localhost:3001/api/login
+
+### GET http://localhost:3001/api/books/all Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTI0ZThiY2M4MmU5YjRiOWQ4ODhhOSIsImlhdCI6MTY3NTc3NTcyOCwiZXhwIjoxNjc4MzY3NzI4fQ.QLMLLY1_upVsULKO6FYnVCnHWqlNElKzPfxtU88j5x0 
+### 
+GET http://localhost:3001/api/books/fantasy 
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTI0ZThiY2M4MmU5YjRiOWQ4ODhhOSIsImlhdCI6MTY3NTc3NTcyOCwiZXhwIjoxNjc4MzY3NzI4fQ.QLMLLY1_upVsULKO6FYnVCnHWqlNElKzPfxtU88j5x0
+
+### 
+GET http://localhost:3001/api/books/mod 
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTI0ZThiY2M4MmU5YjRiOWQ4ODhhOSIsImlhdCI6MTY3NTc3NTcyOCwiZXhwIjoxNjc4MzY3NzI4fQ.QLMLLY1_upVsULKO6FYnVCnHWqlNElKzPfxtU88j5x0
+
+### POST to add a card: 
+POST http://localhost:3001/api/cards 
+Content-Type: application/json
+
+{
+"name": "Pizza Dominos",
+ "description": "Best Pizza in some place", 
+ "address": "some place", 
+ "phone": "050-5050022", 
+ "image":"http://abc.com/image.png", 
+ "bizNumber":1233123123
+}
+
+### GET all cards 
+GET http://localhost:3001/api/cards
+Authorization: YOUR_JWT_TOKEN
+
+### GET all students: 
+GET http://localhost:3001/api/students
+
+###POST to add a student: 
+POST http://localhost:3001/api/students
+Content-Type: application/json
+
+{
+"firstName":"Bruce", "lastName":"Wayne", "email":"Batman@Batcave.com"
+}
+
+###Get
+GET http://localhost:3001/api/auth/signup 
+
+###POST to add user: 
+POST http://localhost:3001/api/auth/signup 
+Content-Type: application/json
+
+{
+"username":"Avigailk", "email":"Avigailkatzav22k@gmail.com", "password":"12234k56aA!"
+}
+
+###POST to sign in user: 
+POST http://localhost:3001/api/auth/signin 
+Content-Type: application/json
+
+{
+    "email":"Avigailkatzavak@gmail.com",
+    "password":"123456sA@"
+}
+###
+GET http://localhost:3001/api/auth/signin 
+
+###post of product
+
+POST http://localhost:3001/api/products/add
+Content-Type: application/json
+
+{
+    "inPage":true,
+    "name": "Gallaxy2",
+    "category":"computer22",
+    "brand": "bla bla22",
+    "orginal_price":"POCO22",
+    "price": "356322",
+    "image": "http://abc.com/image.png22",
+}
+
+###
+GET http://localhost:3001/api/products
+
+###
+GET http://localhost:3001/api/products/64934a74051e2ee55d2bb40a
+
+
+###
+DELETE http://localhost:3001/api/products/6479fccc0a418c2c15f5512b
+###
+PUT http://localhost:3001/api/products/6479ed52a239543b89fd1b5e
+Content-Type: application/json
+
+{
+    "name": "Samsung Galaxy Tab S6 Lite 64GB WF P610"
+}
+
+
+###
+GET http://localhost:3001/api/products
