@@ -1,0 +1,25 @@
+.Nav {
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    top: 30px;
+    position: fixed;
+
+
+}
+
+.Nav a {
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid aqua;
+    border-radius: 8px;
+    padding: 13px;
+    background-color: aqua;
+    font-family: lato;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+
+
+}

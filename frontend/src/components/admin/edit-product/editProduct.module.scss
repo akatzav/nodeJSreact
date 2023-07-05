@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Imported;
+    src: url("../../fonts/Heebo-Black.ttf")
+}
+
+.edit {
+    margin-top: 100px;
+    border: 2px solid #a9927d;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 5px 8px 3px #000;
+
+    @media (max-width:990px) {
+        width: 400px;
+    }
+}
+
+.title1 {
+    margin-top: 20px;
+    font-family: Imported;
+    color: #a9927d;
+    text-shadow: 3px 2px #000;
+    font-size: 30pt;
+}
+
+.input1 {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+
+    @media (max-width:990px) {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+    }
+}
+
+.label1 {
+    margin-right: 10px;
+}
+
+.select1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+
+    @media (max-width:990px) {
+        margin-right: 145px;
+    }
+}
+
+.editing {
+    margin-bottom: 20px;
+    background-color: darkgreen;
+    font-family: Imported;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.editing:hover {
+    background-color: chartreuse;
+}

@@ -1,0 +1,51 @@
+.update {
+    margin-top: 100px;
+}
+
+.title {
+    color: aliceblue;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 3px 3px red;
+}
+
+.input {
+    margin: 6px;
+    border-radius: 25px;
+    border: 1px solid red;
+    background-color: #000;
+    width: 200px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.button {
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 25px;
+    border: 1px solid red;
+    color: aliceblue;
+    background-color: red;
+    height: 30px;
+    width: 150px;
+
+    font-family: lato;
+    font-size: 15px;
+}
+
+.isAdmin {
+    position: absolute;
+    left: 680px;
+    display: flex;
+    top: 70px;
+    color: red;
+    font-family: lato;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.isAdmin:hover {
+    color: chartreuse;
+}

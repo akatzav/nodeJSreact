@@ -1,0 +1,42 @@
+.about {
+    margin-top: 0;
+    height: 100%;
+    background-color: #030f22;
+}
+
+.title {
+    font-family: lato;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    color: aliceblue;
+    text-shadow: 2px 3px 2px red;
+}
+
+.paragraph {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    font-family: lato;
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+
+.isAdmin {
+    position: absolute;
+    left: 680px;
+    display: flex;
+    top: 70px;
+    color: red;
+    font-family: lato;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.isAdmin:hover {
+    color: chartreuse;
+}

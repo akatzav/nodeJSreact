@@ -1,0 +1,119 @@
+body {
+    background-color: #030f22;
+    overflow-y: scroll;
+}
+
+.homePage {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #030f22;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    height: 100%;
+
+}
+
+.section {
+    display: flex;
+    padding-top: 50px;
+
+    @media (max-width:990px) {}
+}
+
+.section2 {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    top: 500px;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width:990px) {
+        display: grid !important;
+        grid-template-columns: auto !important;
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card {
+    border: 1px solid red;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    border-radius: 15px;
+    margin-bottom: 250px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title,
+.p {
+
+    margin-left: 0;
+    color: aliceblue;
+}
+
+.label {
+    color: chartreuse;
+    margin: 10px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+.isAdmin {
+    position: absolute;
+    left: 680px;
+    display: flex;
+    top: 70px;
+    color: red;
+    font-family: lato;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.isAdmin:hover {
+    color: chartreuse;
+}
+
+.search {
+    position: absolute;
+    top: 85px;
+    right: 50px;
+
+    @media (max-width:990px) {
+        margin-top: -90px;
+    }
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: #000;
+    width: 200px;
+    height: 30px;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    margin-top: -20px;
+    color: red;
+
+    @media (max-width:990px) {
+        position: absolute;
+        top: 60px;
+        right: 115px;
+    }
+}

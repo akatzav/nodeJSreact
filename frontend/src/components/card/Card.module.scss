@@ -1,0 +1,50 @@
+.addToCart {
+    top: 120px !important;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span {
+    color: aliceblue;
+    border-radius: 50%;
+    background-color: red;
+    padding: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    position: absolute;
+}
+
+.cardBody {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.brand {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.instead {
+    color: red;
+}
+
+.p {
+    font-family: lato;
+}
+
+.orginal {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.price {
+    color: #f6eb14;
+    font-weight: bold;
+}
+
+.image {
+    width: 200px;
+    height: 250px;
+}

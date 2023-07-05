@@ -1,0 +1,76 @@
+.navbar1 {
+    text-decoration: none;
+    top: 40px;
+
+    @media (max-width:990px) {}
+
+}
+
+.navbar1 .navLinks {
+    position: absolute;
+    left: 250px;
+    display: flex;
+    top: 50px;
+
+    @media (max-width:990px) {
+        display: grid;
+        grid-template-columns: auto !important;
+
+    }
+}
+
+.link1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin: 20px;
+    color: red;
+    font-family: lato;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.link1:hover {
+    color: chartreuse;
+}
+
+.section {
+    display: flex;
+
+    @media (max-width:990px) {
+        position: absolute;
+        top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+}
+
+.section .name {
+    position: fixed;
+    z-index: 1000;
+    position: absolute;
+    top: 37px;
+    font-weight: 100 !important;
+    font-size: 20px;
+    color: aliceblue;
+    left: 90px;
+}
+
+.icon {
+    position: absolute;
+    left: 50px;
+    top: 45px;
+
+    @media (max-width:990px) {
+        position: absolute;
+        top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        z-index: 1000;
+
+
+    }
+}

@@ -1,0 +1,101 @@
+footer {
+    background-color: #031430;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    position: relative;
+}
+
+.footer {}
+
+.p1 {
+    display: flex;
+
+    @media (max-width:990px) {}
+
+}
+
+.vl {
+    border-left: 1px solid aliceblue;
+    height: 150px;
+    position: absolute;
+    bottom: 30px;
+    left: 350px;
+
+    @media (max-width:990px) {
+        border-left: 1px solid aliceblue;
+        width: 150px;
+    }
+}
+
+.brand {
+    color: aliceblue;
+    list-style-type: none;
+    margin-right: 200px;
+    margin-left: 80px;
+    line-height: 1.6;
+}
+
+.contact {
+    color: aliceblue;
+    list-style-type: none;
+    position: absolute;
+    left: 450px;
+    line-height: 1.6;
+}
+
+.form {
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+    font-family: lato;
+}
+
+.h5 {
+    font-family: lato;
+    font-size: 20px;
+    color: aliceblue;
+    color: red;
+}
+
+.vl1 {
+    border-left: 1px solid aliceblue;
+    height: 150px;
+    position: absolute;
+    bottom: 30px;
+    right: 400px;
+}
+
+.input {
+    height: 20px;
+}
+
+.button {
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 10px;
+    background-color: red;
+    border: 1px solid red;
+    font-family: lato;
+    height: 25px;
+}
+
+.button:hover {
+    border: 1px solid chartreuse;
+}
+
+.h52 {
+    font-family: lato;
+    font-size: 15px;
+    color: red;
+}
+
+.copy {
+    position: absolute;
+    color: aliceblue;
+    font-family: lato;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
